@@ -1,8 +1,10 @@
-name: a4beg_py
+name: <environment-name>
 channels:
-  - defaults
+ - defaults
 dependencies:
-  - python=3.12.4
-  - openai
-  - python-dotenv
-
+- python=3.12
+- openai
+- python-dotenv
+- pip
+- pip:
+  - azure-ai-inference
